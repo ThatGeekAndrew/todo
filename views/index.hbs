@@ -1,79 +1,21 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>To Do | The Plain Jane vanilla experience!</title>
-    <meta name="author" content="Andrew Alsante">
-    <meta name="description" content="A to do list with vanilla errythang!">
 
-    <meta name="viewport" content="width=device-width">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="stylesheets/app.css">
-
-    <base href="/">
-  </head>
-  <body >
 
     <div class="container">
         <div class="row">
-        	<div class="col-sm-6 col-sm-offset-3 text-center">
-        		<h1>ToDo List:</h1>
+        	<div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3 text-center">
+        		<h1>To Do List:</h1>
         		<div class="input-group">
-			      <input id="task" class="form-control" type="text" placeholder=">_">
+			      <input id="task" class="form-control" type="text" placeholder="Today I want to...">
 			      <span class="input-group-btn">
 			        <button id="submit" class="btn btn-success" type="button">
 			        	<i class="fa fa-plus"></i> Add
 			        	</button>
 			      </span><!-- /button -->
 			    </div><!-- /input-group -->
-			    <hr>
+			    
         		<ul id="toDo">
-        			<!--
-        			<li>
-        				<span class="pull-left"><input type="checkbox" checked="checked" /></span>
-        				<span class="muted strike">This one's done!</span>
-        				<span class="pull-right">
-        					<a href="#"><i class="fa fa-pencil"></i></a> | <a href="#"><i class="fa fa-times text-danger"></i></a>
-        				</span>
-        			</li>
-        			<hr>
-
-        			<li>
-        				<span class="pull-left"><input type="checkbox" /></span>
-        				<span>Another task to do.</span>
-        				<span class="pull-right">
-        					<a href="#"><i class="fa fa-pencil"></i></a> | <a href="#"><i class="fa fa-times text-danger"></i></a>
-        				</span>
-        			</li>
-        			<hr>
-
-        			<li>
-        				<span class="pull-left"><input type="checkbox" /></span>
-        				<span>A super long to do. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        				tempor incididunt ut labore et dolore magna aliqua.</span>
-        				<span class="pull-right">
-        					<a href="#"><i class="fa fa-pencil"></i></a> | <a href="#"><i class="fa fa-times text-danger"></i></a>
-        				</span>
-        			</li>
-        			<hr>
-
-        			<li>
-        				<span class="pull-left"><input type="checkbox" /></span>
-        				<span>A slightly longer to do task. Just making sure.</span>
-        				<span class="pull-right">
-        					<a href="#"><i class="fa fa-pencil"></i></a> | <a href="#"><i class="fa fa-times text-danger"></i></a>
-        				</span>
-        			</li>
-        			-->
+        		<!-- javascript children will be made here. it's totes dorbs. -->
         		</ul>
         	</div> <!-- /col-6 -->
         </div> <!-- /row -->
     </div><!-- /container -->
-
-    <script src="javascripts/app.js"></script>
-    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
-  </body>
-</html>
-

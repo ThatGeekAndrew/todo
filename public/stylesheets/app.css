@@ -1,14 +1,20 @@
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0.5s ease; 
+  opacity: 0;
+}
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
 }
 
 ul {
 	padding-left: 0px;
 }
 
-a {
-  color: #00B7FF;
+h1 {
+	font-family: 'Lemon', cursive;
 }
 
 #submit {
@@ -17,13 +23,13 @@ a {
 }
 
 .muted {
-	color: #CCCCCC;
+	color: #999999;
 }
 
 .strike {
 	text-decoration: line-through;
 }
 
-.list {
+ul {
 	list-style: none;
 }
