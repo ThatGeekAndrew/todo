@@ -16,3 +16,6 @@ Finally navigate to:
 `http://localhost:3000`
 
 Everything important is in the `public/` and `views/` directories.
+
+Project reference:
+https://www.youtube.com/playlist?list=PLw5h0DiJ-9PAYC0e803bTM-6BnYeL9_lW
