@@ -1,0 +1,29 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+ul {
+	padding-left: 0px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#submit {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.muted {
+	color: #CCCCCC;
+}
+
+.strike {
+	text-decoration: line-through;
+}
+
+.list {
+	list-style: none;
+}
